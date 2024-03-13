@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Entrar no Otter</title>
+        <link rel="stylesheet" href="src/styles/login.css">
+    </head>
+    <body>
+        <div class="login">
+            
+            <img class="login__logo" src="assets/banner-clara-otter.png" alt="banner-otter">
+            
+            <form method="post" class="login__form" id="LoginForm">
+                <div class="login__input">
+                    <input type="text" class="inputText" name="email" id="Email" placeholder="Nome de usuario, telefone ou email" autofocus >
+                </div>
+                <div class="login__input">
+                    <input type="text" class="inputText" name="senha" id="Senha" placeholder="Senha">
+                </div>
+                <span><a href="#" class="login__link">Esqueceu a senha?</a></span>
+                <div class="login__button">
+                    <button type="submit">Entrar</button>
+                </div>
+            </form>
+
+            <span>Não tem uma conta?<a href="#" class="login__link">Crie aqui</a></span>
+
+            <div class="login__linha"></div>
+
+            <span>Entre com outra conta</span>
+            <section class="login__loginSocial">
+                <div class="login__google"><a href="#"><img src="assets/google-Icon.png" alt="google-icon"></a></div>
+                <div class="login__apple"><a href="#"><img src="assets/apple-icon.png" alt="apple-icon"></a></div>                
+            </section>
+        </div>
+        
+
+        <script src="src/scripts/login.js"></script>
+    </body>
+</html>
